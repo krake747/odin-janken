@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#score {
+    justify-content: space-evenly;
+}
+
+#results {
+    flex-direction: column;
+}
