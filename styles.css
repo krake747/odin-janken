@@ -4,8 +4,12 @@
     text-align: center;
 }
 
-#score {
+#players {
     justify-content: space-evenly;
+}
+
+#score {
+    justify-content: center;
 }
 
 #results {
