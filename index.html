@@ -4,8 +4,27 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Janken</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <button id="rock">Rock</button>
+      <button id="paper">Paper</button>
+      <button id="scissors">Scissors</button>
+    </div>
+    <div class="container" id="players">
+      <div>
+        <h6>Player 1</h6>
+        <p id="player1">0</p>
+      </div>
+      <div>
+        <h6>Player 2</h6>
+        <p id="player2">0</p>
+      </div>
+    </div>
+    <div class="container" id="score"></div>
+    <div class="container" id="results"></div>
+  </body>
   <script src="janken.js"></script>
 </html>
